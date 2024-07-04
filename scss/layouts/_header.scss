@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  &__container {
+    margin: 0 120px;
+  }
+
+  &__row {
+    background-color: #cff481;
+    opacity: 50%;
+    display: flex;
+  }
+}
