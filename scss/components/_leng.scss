@@ -1,0 +1,11 @@
+.leng {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  display: flex;
+
+  &__text {
+    margin: auto;
+  }
+}

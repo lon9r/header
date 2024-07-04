@@ -9,30 +9,100 @@
     <title>Document</title>
   </head>
   <body>
-    <head class="header">
+    <header class="header">
       <div class="container">
         <div class="header__container">
           <nav class="header__row">
             <ul class="header__row-contacts">
               <li class="header__row-contacts-item">
+                <img src="./images/map.svg" alt="" />
                 м. Київ, вул. Антоновича 34
               </li>
-              <li class="header__row-contacts-item">info@usap.ua</li>
-              <li class="header__row-contacts-item">(067) 480-46-84</li>
+              <li class="header__row-contacts-item">
+                <img src="./images/email.svg" alt="" />info@usap.ua
+              </li>
+              <li class="header__row-contacts-item">
+                <img src="./images/phone.svg" alt="" />(067) 480-46-84
+              </li>
             </ul>
             <ul class="header__row-menu">
-              <li calss="header__row-menu_item">Контакти</li>
-              <li calss="header__row-menu_item">Про компанію</li>
-              <li calss="header__row-menu_item">Блог</li>
+              <li class="header__row-menu-item">Контакти</li>
+              <li class="header__row-menu-item">Про компанію</li>
+              <li class="header__row-menu-item">Блог</li>
             </ul>
           </nav>
-          <nav class="header__nav">
-            <a class="header__logo">
-              <img src="" alt="" />
-            </a>
+          <nav class="header__menu">
+            <div class="header__logo-gap">
+              <a>
+                <img class="header__logo" src="./images/logo.png" alt="" />
+              </a>
+              <div class="header__search-gap">
+                <ul class="header__nav">
+                  <li class="header__menu-item header__research">
+                    Дослідження
+                    <ul class="header__subpar-research-list">
+                      <li class="header__subpar-research-item">ГМО</li>
+                      <li class="header__subpar-research-item">Олійні</li>
+                      <li class="header__subpar-research-item">Зернові</li>
+                      <li class="header__subpar-research-item">Паливо</li>
+                      <p class="header__subpar-research-more">
+                        <b>Всі дослідження</b>
+                      </p>
+                    </ul>
+                  </li>
+                  <li class="header__menu-item header__subpar">
+                    Консалтинг
+                    <div class="header__cons-lists">
+                      <ul class="header__subpar-ISO-list">
+                        <p class="header__paragraph"><b>Розробка систем</b></p>
+                        <li class="header__subpar-cons-item">ISO 22000</li>
+                        <li class="header__subpar-cons-item">ISO 27001</li>
+                        <li class="header__subpar-cons-item">ISO 15189</li>
+                        <li class="header__subpar-cons-item">ISCC</li>
+                        <p class="header__paragraph header__all-system">
+                          <b>Всі системи</b>
+                        </p>
+                      </ul>
+                      <ul class="header__sertificate-list">
+                        <p class="header__paragraph">
+                          <b>Сетрифікація <br />продукції</b>
+                        </p>
+                        <li class="header__sertificte-item">Миючі засоби</li>
+                        <li class="header__sertificte-item">
+                          Харчові продукти
+                        </li>
+                        <li class="header__sertificte-item">Іграши</li>
+                        <li class="header__sertificte-item">
+                          Сертифікат <br />
+                          відповідності
+                        </li>
+                        <p class="header__paragraph"><b>Всі продукти</b></p>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="header__menu-item">Сертифікація</li>
+                  <li class="header__menu-item">Навчання</li>
+                  <li class="header__menu-item">Наші клієнти</li>
+                </ul>
+
+                <div class="header__leng-search">
+                  <form class="header__search">
+                    <input
+                      class="header__input"
+                      type="text"
+                      placeholder="Пошук"
+                    />
+                    <button class="header__search-btn" type="submit">
+                      <img src="./images/search-button.svg" alt="" />
+                    </button>
+                  </form>
+                  <span class="leng"><p class="leng__text">UA</p></span>
+                </div>
+              </div>
+            </div>
           </nav>
         </div>
       </div>
-    </head>
+    </header>
   </body>
 </html>
